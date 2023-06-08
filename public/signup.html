@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset=utf-8>
+  <meta charset="utf-8">
   <title>Yodlr Registration Portal</title>
+  <link rel="stylesheet" href="signup.css"> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
 </head>
-<body>
-  <h1>Yodlr Registration Portal</h1>
-  <form>
-    Email: <input type="email" name="email"></br>
-    <button type="submit">Submit</button>
-  </form>
-  <p>
+<body>  
+
+  <header>
+    <h1>Yodlr Registration Portal</h1>
+  </header>  
+  <nav>
     <a href="/admin.html">Admin Page</a>
-  </p>
+  </nav>
+  <form>
+    <label>Email: <input type="email" name="email"></label><br>
+    <label>First Name: <input type="text" name="firstName"></label><br>
+    <label>Last Name: <input type="text" name="lastName"></label><br>
+    <button type="submit">Submit</button>
+    <div id="success-div" class="text-success"></div>
+  </form>
+  <script type='text/javascript' src='./signup.js'></script>
 </body>
 </html>
+

@@ -1,0 +1,41 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    padding: 20px;
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #f2f5fa;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  /* Page content styles */
+  .container {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  

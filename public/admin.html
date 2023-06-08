@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset=utf-8>
   <title>Yodlr Admin Page</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <link rel='stylesheet' text='text/css' href='./admin.css' />
 </head>
+
 <body>
-  List user data here
+  <header>
+    <h1 class='display-1'>User List</h1>
+  </header>
+  <nav>
+    <a href='/signup.html'>Registration</a>
+  </nav>
+  <br /> 
+  <br />
+  <table class='table table-primary table-hover'>
+    <thead>
+      <th>Email</th>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>State</th>
+    </thead>
+    <tbody id='user-list'></tbody>
+  </table>
+
+  <script type='text/javascript' src="./admin.js"></script>
 </body>
+
 </html>
